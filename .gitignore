@@ -169,3 +169,39 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Ignore virtual environment files
+newvenv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore local configuration files
+.env
+.env.local
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Ignore log files
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other unnecessary files
+*.dll
+*.pdb
